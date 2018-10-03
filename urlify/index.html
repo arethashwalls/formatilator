@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A collection of string transformation functions of varied usefulness, created as an exercise in JavaScript programming.">
+    <title>Formatilator</title>
+      
+    
+  </head>
+    
+  <body>
+    
+    <div id="container">
+        <h1>Formatilator</h1>
+        <p>A collection of string transformation functions of varied usefulness, created as an exercise in JavaScript programming.</p>
+        <section id="input-section">
+            <h2>Input</h2>
+            <input type="text" id="original-text" class="textbox" placeholder="Text to be reformatificated."/>
+            <br><br>
+        </section>
+        
+        <section id="function-section">
+            <div class="button-section">
+                <button id="dashify-button">dashify!</button>
+            </div>
+            <div class="button-section" id="dash-selectors">
+                <div class="radio-group">
+                    <input type="radio" name="separator" id="dash" value="dash" checked>
+                    <label for="dash">dash-it</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" name="separator" id="underscore" value="underscore">
+                    <label for="underscore">underscore_it</label>
+                </div>
+            </div>
+            <div class="button-section">
+                <button id="camelfy-button">camelfy!</button>
+            </div>
+            <div class="button-section">
+                <button id="reverse-button">reverse!</button>
+            </div>
+            <div class="button-section">
+                <button id="rotate-button">rotate!</button>
+            </div>
+            <div class="button-section">
+                <button id="hash-button">smush!</button>
+            </div>
+        </section>
+        
+        <section id="output-section">
+            <h2>Output</h2>
+            <input type="text" id="output-text" class="textbox" placeholder="Text what's been reformatificatilized."/>
+            <br>
+
+        </section>
+        
+        <button id="switch-button">switch</button>
+        <button id="reset-button">reset</button>
+        
+        
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </body>
+</html>
